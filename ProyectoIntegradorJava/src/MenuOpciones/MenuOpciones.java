@@ -39,7 +39,7 @@ public class MenuOpciones extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(204, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(153, 51, 255));
         jPanel1.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
@@ -73,25 +73,25 @@ public class MenuOpciones extends javax.swing.JFrame {
 
         btn_condicion.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         btn_condicion.setForeground(new java.awt.Color(0, 0, 0));
-        btn_condicion.setText("Condición Personal");
+        btn_condicion.setText("Personal");
         btn_condicion.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_condicionMouseClicked(evt);
             }
         });
         jPanel1.add(btn_condicion);
-        btn_condicion.setBounds(80, 220, 140, 26);
+        btn_condicion.setBounds(80, 220, 130, 26);
 
         btn_estadistica.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         btn_estadistica.setForeground(new java.awt.Color(0, 0, 0));
-        btn_estadistica.setText("Estadista de Sueldos ");
+        btn_estadistica.setText("Estadista ");
         btn_estadistica.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_estadisticaMouseClicked(evt);
             }
         });
         jPanel1.add(btn_estadistica);
-        btn_estadistica.setBounds(80, 260, 150, 26);
+        btn_estadistica.setBounds(80, 250, 130, 26);
 
         btn_salir.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
         btn_salir.setForeground(new java.awt.Color(0, 0, 0));
@@ -120,7 +120,8 @@ public class MenuOpciones extends javax.swing.JFrame {
         jPanel1.add(btn_registrar);
         btn_registrar.setBounds(80, 100, 130, 26);
 
-        btn_usuarios.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        btn_usuarios.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btn_usuarios.setForeground(new java.awt.Color(0, 0, 0));
         btn_usuarios.setText("Usuarios");
         btn_usuarios.setPreferredSize(new java.awt.Dimension(108, 40));
         btn_usuarios.addActionListener(new java.awt.event.ActionListener() {
@@ -129,7 +130,7 @@ public class MenuOpciones extends javax.swing.JFrame {
             }
         });
         jPanel1.add(btn_usuarios);
-        btn_usuarios.setBounds(80, 300, 150, 30);
+        btn_usuarios.setBounds(80, 280, 130, 30);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
